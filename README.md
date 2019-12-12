@@ -7,4 +7,4 @@ Unlike some other programming challenge websites, it looks like they are okay wi
 *(please let me know if this is not the case)*
 
 ## Current Progress:
-Set 1, challenge 1..
+Set 1, challenge 1...
