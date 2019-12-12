@@ -1,4 +1,4 @@
-# smilevideo's Cryptopals solutions
+# Andrew's cryptopals solutions
 My work (in progress) on the Cryptopals cryptography programming challenges, probably primarily in Javascript
 
 The challenges are found here: https://cryptopals.com/
