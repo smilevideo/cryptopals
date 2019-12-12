@@ -1,5 +1,5 @@
 # Andrew's cryptopals solutions
-My work (in progress) on the Cryptopals cryptography programming challenges, probably primarily in Javascript
+My work (in progress) on the cryptopals cryptography programming challenges, probably primarily in Javascript
 
 The challenges are found here: https://cryptopals.com/
 
