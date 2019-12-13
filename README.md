@@ -1,4 +1,4 @@
-My work (in progress) on the cryptopals cryptography programming challenges, probably primarily in Javascript
+My work (in progress) on the cryptopals programming challenges, done in Node.js
 
 The challenges are found here: https://cryptopals.com/
 
