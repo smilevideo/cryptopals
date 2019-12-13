@@ -23,5 +23,4 @@ for (let j = 0; j < 256; j++) {
 }
 
 console.log(key, message);
-
-//answer: 88 or 120 or 344 or 376
+//output: 88 Cooking MC's like a pound of bacon
