@@ -8,4 +8,4 @@ Unlike some other programming challenge websites, it looks like they are okay wi
 ## Current Progress:
 finished up to set 1, challenge 5
 
-currently on hold for other job-search related activities
+currently on hold for job-search related activities
