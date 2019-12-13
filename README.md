@@ -6,4 +6,5 @@ Unlike some other programming challenge websites, it looks like they are okay wi
 *(please let me know if this is not the case)*
 
 ## Current Progress:
-working on set 1, challenge 4
+finished up to set 1, challenge 5
+on hold for other job-search related activities
