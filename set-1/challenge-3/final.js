@@ -5,12 +5,12 @@ let message = '';
 let max = 0;
 let key = null;
 
-for (let j = 0; j < 256; j++) {
+for (let i = 0; i < 256; i++) { //loop from 0 to 255 to check all possible 1-byte values
+    //create buffer of the cipher XOR'd with the current iteration's key
     const check = [];
-    for (let i = 0; i < hexBuff.length; i++) {
-        check.push(hexBuff[i] ^ j);
+    for (let j = 0; j < hexBuff.length; j++) {
+        check.push(hexBuff[j] ^ i);
     }
-
     const origBuffer = Buffer.from(check);
 
     //looking for the largest number of alphanumeric or space characters
@@ -18,7 +18,7 @@ for (let j = 0; j < 256; j++) {
     if (charCount > max) {
         max = charCount;
         message = origBuffer.toString('utf8');
-        key = j;
+        key = i;
     }
 }
 
