@@ -1,3 +1,4 @@
+/* takes two hex strings and XORs them, returning the output as a hex string */
 const hexXOR = (hexString1, hexString2) => {
     let arr = [];
     const buff1 = Buffer.from(hexString1, 'hex');
