@@ -1,3 +1,7 @@
+/** This solves the challenge but it seems like I should stick with the built-in functions and classes for future problems,
+ * see final.js **/
+
+
 /* maps hex values to binary strings */
 const hexToBinaryTable = {
     '0': '0000',
@@ -27,7 +31,7 @@ for (let key in hexToBinaryTable) {
 /* function that converts hex string to binary string */
 const hexToBinary = (hexString) => {
     let binary = '';
-    for (i = 0; i < hexString.length; i++) {
+    for (let i = 0; i < hexString.length; i++) {
         binary += hexToBinaryTable[hexString[i]];
     }
 
