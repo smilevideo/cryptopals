@@ -3,7 +3,7 @@ My work (in progress) on the cryptopals programming challenges, done in Node.js
 Each solution file is self-contained; i.e. it doesn't import code from other files
 
 ## Current Progress:
-finished up to set 1, challenge 5
+Finished up to set 1, challenge 5
 
 ## References:
 The challenges are found here: https://cryptopals.com/
