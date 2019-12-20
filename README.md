@@ -8,5 +8,3 @@ Unlike some other programming challenges, it seems like they are okay with users
 
 ## Current Progress:
 finished up to set 1, challenge 5
-
-currently on hold for job search-related activities
