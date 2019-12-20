@@ -3,7 +3,8 @@ My work (in progress) on the cryptopals programming challenges, done in Node.js
 Each challenge folder is self-contained; i.e. it doesn't use files from elsewhere
 
 ## Current Progress:
-Finished up to set 1, challenge 6  
+Finished up to set 1, challenge 6
+
 *currently on hold for job search-related activities*
 
 ## References:
