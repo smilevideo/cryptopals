@@ -1,6 +1,6 @@
 # Cryptopals with Node.js
 My work (in progress) on the cryptopals programming challenges, done in Node.js  
-Each solution file is self-contained, i.e. it doesn't import code from other files
+Each solution file is self-contained in that it doesn't import code from other files
 
 ## Current Progress:
 finished up to set 1, challenge 5
