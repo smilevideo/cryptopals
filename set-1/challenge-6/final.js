@@ -31,7 +31,7 @@ const findKeySize = (string) => {
     let ret = null;
     for (let keySize = 2; keySize <= 40; keySize++) { //challenge says to try values from 2 to 40
         //compute edit distances between as many consecutive keySize-sized blocks as the input string allows
-        let blockCount = Math.floor(string.length / keySize);
+        let blockCount = Math.floor(string.length / keySize) - 1;
 
         //find the average normalized edit distance
         let avg = 0;
