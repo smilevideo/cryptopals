@@ -38,7 +38,7 @@ const findKeySize = (string) => {
         for (let i = 0; i < blockCount; i++) {
             avg += (editDistance(string.slice(i * keySize, (i + 1) * keySize),
                 string.slice((i + 1) * keySize, (i + 2) * keySize )))
-                / keySize;
+                / keySize; //normalize distance by dividing by key size
         }
         avg /= blockCount;
 
