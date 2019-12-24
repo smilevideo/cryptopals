@@ -5,6 +5,8 @@ const readline = require('readline');
 
 const testKeyBuffer = Buffer.from('YELLOW SUBMARINE', 'utf8');
 const decipher = crypto.createDecipheriv('aes-128-ecb', testKeyBuffer, '');
+//below line stops decipher.final() from removing the ending padding
+// decipher.setAutoPadding(false); 
 
 let rl = readline.createInterface({
     input: fs.createReadStream('./data.txt')
