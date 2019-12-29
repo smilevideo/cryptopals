@@ -19,16 +19,10 @@ rl.on('line', line => {
     }
 
     //count number of times any block is repeated 
-    let repeatCount = 0;
-    for (let i = 0; i < lineArr.length; i++) {
-        for (let j = 0; j < lineArr.length; j++) {
-            if (lineArr[i] === lineArr[j]) {
-                if (i !== j) {
-                    repeatCount += 1;
-                }
-            }
-        }
-    }
+    const uniqueCount = lineArr.filter((value, index, array) => {
+        return array.indexOf(value) === index;
+    }).length;
+    const repeatCount = lineArr.length - uniqueCount;
 
     //output any lines with repeated blocks
     // --if there are any it's probably ecb
