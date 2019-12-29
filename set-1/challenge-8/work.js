@@ -18,7 +18,7 @@ rl.on('line', line => {
         lineArr.push(line.slice(i * 32, (i + 1) * 32));
     }
 
-    //count number of times any block is repeated blocks 
+    //count number of times any block is repeated 
     let repeatCount = 0;
     for (let i = 0; i < lineArr.length; i++) {
         for (let j = 0; j < lineArr.length; j++) {
