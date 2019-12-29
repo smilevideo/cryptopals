@@ -4,5 +4,6 @@ Each challenge folder is self-contained; i.e. doesn't use files from elsewhere
 
 The challenges are found here: https://cryptopals.com/
 
+
 ## Current Progress:
-- Set 1: complete
+- **Set 1**: complete
