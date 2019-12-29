@@ -6,4 +6,4 @@ The challenges are found here: https://cryptopals.com/
 
 
 ## Current Progress:
-- **Set 1**: complete
+- Set 1: complete
