@@ -7,5 +7,3 @@ The challenges are found here: https://cryptopals.com/
 
 ## Current Progress:
 - Set 1: complete  
-  
-*currently on hold for job-search activities*
